@@ -1,0 +1,5 @@
+#!/bin/bash
+
+URL="$1"
+
+youtube-dl -q -o- $URL | mplayer -cache 8192 -

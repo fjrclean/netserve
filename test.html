@@ -1,0 +1,35 @@
+<?xml version = "1.0" encoding = "utf-8" ?>
+<!DOCTYPE html>
+<html lang = "en" xmlns = "http://www.w3.org/1999/xhtml" >
+
+<head>
+	<title> Lab06,Ex3 </title>
+	
+	<style type="text/css">
+		span.error {color: red}
+		span.success {color: green}
+	</style>
+</head>
+<body>
+
+	<h1> Play Media on Raspberry Pi </h1>
+	<form title="inputs">
+	
+	<fieldset>
+	<legend> Now Playing: </legend>
+	<button type="button"> Pause </button>
+	</fieldset>
+	
+	<fieldset>
+	<legend> Play New: </legend>
+	<label for="mediaURI"> URI: </label>
+	<input id="mediaURI" name="mediaURI" title="eg youtube url, torrent magnet link" type="text" />
+	<label for="omxOpts"> OMXPlayer options: </label>
+	<input id="omxOpts" name="omxOpts" />
+	<button type="submit"> Play </button> 
+	</fieldset>
+
+	</form>
+
+</body>
+</html>

@@ -1,0 +1,11 @@
+#ignore nano backups that end in ~
+*~
+
+#ignore bin subdirectory and all files in it
+bin/*
+
+#ignore build files
+cmake_install.cmake
+CMakeFiles/*
+CMakeCache.txt
+Makefile
